@@ -21,7 +21,8 @@ class Penguin extends Bird {
   }
 }
 
-// Według zasady podstawienia Liskov każda podklasa klasy musi mieć działające metody klasy nadrzędnej
+// Według zasady podstawienia Liskov 
+// każda podklasa klasy musi mieć działające metody klasy nadrzędnej
 function makeBirdFly(bird) {
   bird.fly();
 }
